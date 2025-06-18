@@ -25,8 +25,30 @@ CalcVerse is a **frontend-only intelligent calculator** project built with pure 
 
 ## 📁 Project Structure
 
-calcverse/
-├── index.html       # Main HTML UI
-├── style.css        # Styling (dark, modern, responsive)
-└── script.js        # Core JavaScript logic
+/calc-verse/
+├── index.html
+├── style.css
+├── script.js
+└── /tabs/
+    ├── basic-calculator/
+    │   ├── basic-calculator.html
+    │   ├── basic-calculator.css
+    │   └── basic-calculator.js
+    ├── scientific-calculator/
+    │   ├── scientific-calculator.html
+    │   ├── scientific-calculator.css
+    │   └── scientific-calculator.js
+    ├── patterns-calculator/
+    │   ├── patterns-calculator.html
+    │   ├── patterns-calculator.css
+    │   └── patterns-calculator.js
+    ├── DSA-calculator/
+    │   ├── DSA-calculator.html
+    │   ├── DSA-calculator.css
+    │   └── DSA-calculator.js
+    └── fun-area/
+        ├── fun-area.html
+        ├── fun-area.css
+        └── fun-area.js
+    
 
